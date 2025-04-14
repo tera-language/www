@@ -20,6 +20,10 @@ export default defineConfig({
           label: "Getting started",
           slug: "getting-started",
         },
+        {
+          label: "Syntax",
+          slug: "syntax",
+        },
       ],
     }),
   ],
