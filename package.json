@@ -13,5 +13,9 @@
     "@astrojs/starlight": "^0.33.1",
     "astro": "^5.6.2",
     "sharp": "^0.32.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tera-language/www.git"
   }
 }
