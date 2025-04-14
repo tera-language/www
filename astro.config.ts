@@ -24,6 +24,10 @@ export default defineConfig({
           label: "Syntax",
           slug: "syntax",
         },
+        {
+          label: "Editor support",
+          slug: "editor-support",
+        },
       ],
     }),
   ],
