@@ -1,0 +1,103 @@
+/* Dark mode colors. */
+:root {
+	--sl-color-accent-low: #3b0e37;
+	--sl-color-accent: #af00a6;
+	--sl-color-accent-high: #ebb3e4;
+	--sl-color-white: #ffffff;
+	--sl-color-gray-1: #f3eaf8;
+	--sl-color-gray-2: #cfc4d5;
+	--sl-color-gray-3: #b29cbd;
+	--sl-color-gray-4: #634f6d;
+	--sl-color-gray-5: #43304b;
+	--sl-color-gray-6: #301e38;
+	--sl-color-black: #1d1421;
+}
+/* Light mode colors. */
+:root[data-theme='light'] {
+	--sl-color-accent-low: #f2c7ec;
+	--sl-color-accent: #95008d;
+	--sl-color-accent-high: #550751;
+	--sl-color-white: #1d1421;
+	--sl-color-gray-1: #301e38;
+	--sl-color-gray-2: #43304b;
+	--sl-color-gray-3: #634f6d;
+	--sl-color-gray-4: #9882a2;
+	--sl-color-gray-5: #c9bdce;
+	--sl-color-gray-6: #f3eaf8;
+	--sl-color-gray-7: #f9f4fb;
+	--sl-color-black: #ffffff;
+}
+
+.install-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2.5rem auto 1.5rem;
+    font-family: ui-monospace, monospace;
+    font-size: 1.1rem;
+    padding: 1rem 1.75rem;
+    border-radius: 10px;
+    width: fit-content;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .install-box code {
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 1.05rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .install-box button {
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    min-width: 70px;
+    text-align: center;
+  }
+  
+  /* Dark mode styles */
+  @media (prefers-color-scheme: dark) {
+    .install-box {
+      background-color: var(--sl-color-gray-6);
+      color: var(--sl-color-gray-1);
+      box-shadow: 0 0 0 1px var(--sl-color-gray-4);
+    }
+  
+    .install-box code {
+      background-color: var(--sl-color-gray-5);
+      color: var(--sl-color-gray-1);
+    }
+  
+    .install-box button {
+      background-color: var(--sl-color-gray-4);
+      color: var(--sl-color-gray-1);
+    }
+  }
+  
+  /* Light mode styles */
+  @media (prefers-color-scheme: light) {
+    .install-box {
+      background-color: var(--sl-color-white);
+      color: var(--sl-color-black);
+      box-shadow: 0 0 0 1px var(--sl-color-gray-4);
+    }
+  
+    .install-box code {
+      background-color: var(--sl-color-gray-7);
+      color: var(--sl-color-black);
+    }
+  
+    .install-box button {
+      background-color: var(--sl-color-gray-2);
+      color: var(--sl-color-black);
+    }
+  
+    .install-box button:hover {
+      background-color: var(--sl-color-gray-3);
+    }
+  }

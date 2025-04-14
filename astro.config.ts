@@ -29,6 +29,10 @@ export default defineConfig({
           slug: "editor-support",
         },
       ],
+      customCss: [
+        // Relative path to your custom CSS file
+        './src/styles/teralang.css',
+      ],
     }),
   ],
 });
