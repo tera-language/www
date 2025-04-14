@@ -38,8 +38,8 @@ Use consistent formatting to keep files readable.
 # 🚀 Next Steps
 Now that you understand the syntax, you’re ready to:
 
-Build mock endpoints for your app
+- Build mock endpoints for your app
 
-Integrate them with fetch/AJAX
+- Integrate them with fetch/AJAX
 
-Share mock servers with teammates
+- Share mock servers with teammates
