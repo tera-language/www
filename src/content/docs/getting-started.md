@@ -8,7 +8,7 @@ description: Getting started with TeraLang
 You can install TeraLang via npm:
 
 ```bash
-npm install teralang
+npm install -g teralang
 ```
 
 ## Usage
