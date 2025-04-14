@@ -14,7 +14,7 @@ hero:
 
 <div class="install-box">
   <code>npm i teralang</code>
-  <button onclick="navigator.clipboard.writeText('npm i teralang').then(() => {
+  <button onclick="navigator.clipboard.writeText('npm i -g teralang').then(() => {
     const btn = this;
     btn.innerText = 'Copied!';
     setTimeout(() => btn.innerText = 'Copy', 2000);
