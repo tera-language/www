@@ -13,7 +13,7 @@ hero:
 ---
 
 <div class="install-box">
-  <code>npm i teralang</code>
+  <code>npm i -g teralang</code>
   <button onclick="navigator.clipboard.writeText('npm i -g teralang').then(() => {
     const btn = this;
     btn.innerText = 'Copied!';
