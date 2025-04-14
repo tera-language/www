@@ -17,7 +17,7 @@ The core of all editor support is the [Tree-sitter grammar for TeraLang](https:/
 
 To use this grammar in an editor that supports Tree-sitter (like Neovim, Helix, or custom tooling), clone and link it into your Tree-sitter setup.
 
-**Repo:**  
+**Repo:**
 [Tree-sitter Repo](https://github.com/tera-language/tree-sitter-teralang)
 
 ---
@@ -26,15 +26,15 @@ To use this grammar in an editor that supports Tree-sitter (like Neovim, Helix, 
 
 Zed has native support for Tree-sitter grammars. You can install the TeraLang plugin for Zed manually:
 
-**Repo:**  
+**Repo:**
 [Zed Extension Repo](https://github.com/tera-language/teralang-zed)
 
 ### 🛠 Installation
 
 1. Clone the repo.
-2. Move it to your Zed extensions folder
-3. Restart Zed. You should now have syntax support for `.tera` files.
-
+2. Open the extensions menu in Zed.
+3. Click on "Install Dev Extension" and select the directory where you cloned the repo.
+4. Reload Zed, and you should now have syntax highlighting for `.tera` files.
 
 ---
 
@@ -42,7 +42,7 @@ Zed has native support for Tree-sitter grammars. You can install the TeraLang pl
 
 There is also a TeraLang syntax extension for Visual Studio Code:
 
-**Repo:**  
+**Repo:**
 [Visual Studio Code Extension Repo](https://github.com/tera-language/teralang-vscode)
 
 ### 🛠 Installation
@@ -50,7 +50,6 @@ There is also a TeraLang syntax extension for Visual Studio Code:
 1. Download the repo
 2. Move it to your Visual Studio Code extensions folder
 3. You should now have syntax support for `.tera` files.
-
 
 ---
 
