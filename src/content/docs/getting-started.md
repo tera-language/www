@@ -37,7 +37,7 @@ To keep your project organized and reduce clutter, you can import other **.tera*
 
 For example, if you have a file called app.tera and want to include it in your main file, you can import it like this:
 
-```
+```tera
 import "./app.tera"
 ```
 

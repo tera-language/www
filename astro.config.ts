@@ -1,9 +1,18 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
+import teralang from "./teralang.textmate.json";
 
 // https://astro.build/config
 export default defineConfig({
   site: "https://teralang.org",
+  markdown: {
+    shikiConfig: {
+      langs: [teralang],
+      langAlias: {
+        tera: "teralang",
+      },
+    },
+  },
   integrations: [
     starlight({
       title: "TeraLang",
@@ -31,7 +40,7 @@ export default defineConfig({
       ],
       customCss: [
         // Relative path to your custom CSS file
-        './src/styles/teralang.css',
+        "./src/styles/teralang.css",
       ],
     }),
   ],
