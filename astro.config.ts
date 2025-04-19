@@ -42,6 +42,9 @@ export default defineConfig({
         // Relative path to your custom CSS file
         "./src/styles/teralang.css",
       ],
+      components: {
+        ThemeSelect: "./src/components/ThemeSelect.astro",
+      },
     }),
   ],
 });
